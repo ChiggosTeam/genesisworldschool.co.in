@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/menu.css">
+</head>
+<body>
+    <ul class="mega-menu">
+        <div class="logo"
+            style="background-image: url(https://img.freepik.com/premium-vector/word-concept-color-geometric-shapes-blog_205544-12899.jpg);background-repeat: no-repeat; background-position: center;">
+        </div>
+        <li><a>Home</a></li>
+        <li>
+            <a>Products</a>
+            <ul>
+                <li>Product 1</li>
+                <li>Product 2</li>
+                <li>Product 3</li>
+                <li>Product 4</li>
+            </ul>
+        </li>
+        <li>
+            <a>Services</a>
+            <ul>
+                <li>Service 1</li>
+                <li>Service 2</li>
+                <li>Service 3</li>
+            </ul>
+        </li>
+        <li>
+            About
+            <ul>
+                <li>Team</li>
+                <li>Mission</li>
+            </ul>
+        </li>
+        <li>Contact</li>
+        <li id="loginbtn">LogIn</li>
+    </ul>
+</body>
+<script>
+    document.getElementById("loginbtn").addEventListener("click",()=>{
+        window.location.href="/loginscreen";
+    })
+</script>
+
+</html>
